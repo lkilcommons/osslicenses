@@ -6,8 +6,8 @@ I make no assertions about it's correctness.
 
 This document is largely my notes from reading the following book:
 	
-	Laurent, Andrew M. St. Understanding Open Source and Free Software Licensing. Accessed July 25, 2016. 
-	[http://shop.oreilly.com/product/9780596005818.do](http://shop.oreilly.com/product/9780596005818.do).
+>Laurent, Andrew M. St. Understanding Open Source and Free Software Licensing. Accessed July 25, 2016. 
+>[http://shop.oreilly.com/product/9780596005818.do](http://shop.oreilly.com/product/9780596005818.do).
 
 This book is available for free under a Creative Commons NoDerivs license and you should read it if you are interested.
 Technically, this may be a derivative work, but I'm asserting that a summary for educational purposes is fair use, 
@@ -23,14 +23,14 @@ Copyright is the concept that the first person to express an idea in a tangible 
 
 The idea of copyright also precludes others from unauthorized creation of a 'derivative work',e.g. a larger piece of code which incorporates the originators copyrighted work. What consititudes a 'derivative work' is a large portion of the nuance associated with open software licensing.
 
-	Contrary to popular belief, any work created today will **automatically** be copyrighted. No line reading "(C) Copyright <My Name> 2016" would be nessecary for this document to have copyright protection. However it is considered good practice to include some such to make it explicit. 
+>Contrary to popular belief, any work created today will **automatically** be copyrighted. No line reading "(C) Copyright <My >Name> 2016" would be nessecary for this document to have copyright protection. However it is considered good practice to >include some such to make it explicit. 
 
 - Limitations on Copyright:
 
 1. Work for hire
 If a person creates an expression of an idea in the context of being compensated by another to do so, then the copyright belongs to the employer, not the employee. 
 
-	Most software created by programmers for pay is legally interpreted as falling under this exception, with the rights holders being their employer. Open source licensing was originally introduced to change this situation by denying an exclusive right to profit to anyone by making the materials nessecary to profit freely available
+>Most software created by programmers for pay is legally interpreted as falling under this exception, with the rights holders >being their employer. Open source licensing was originally introduced to change this situation by denying an exclusive right >to profit to anyone by making the materials nessecary to profit freely available
 
 2. Fair Use
 This is not an well defined exception, but the gist is that exceptions are made to copyright when the expression is used in certain uses which do not impact the orginator's exclusivity to profit from thier work. Includes things like reviewing and criticizing the work.
@@ -64,7 +64,7 @@ This simply means that others cannot claim to be the work's creator, and must ac
 
 # Certified Open Source Licences:
 	
-	Open source licenses are certified by the Open Source Initiative. In order for a license to be OSI-Certified (which all commonly used liceses are) it must satisfy all of the following critera. I have paraphrased the following from the OSI formal legal text.
+>Open source licenses are certified by the Open Source Initiative. In order for a license to be OSI-Certified (which all >commonly used liceses are) it must satisfy all of the following critera. I have paraphrased the following from the OSI formal >legal text.
 
 1.  No prevention of anyone from selling or giving away the licensed software as part of a package of software, (to clarify this is __non-exclusive__, i.e. everyone who has a copy has an equal right to sell it or give it away, regardless if they are the author or not)
 2.	Source code for the application must be included, in the preferred form in which a programmer would modify it (no compiled binaries, no obfuscated code)
