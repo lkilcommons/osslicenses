@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Open Source Licenses by lkilcommons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Open Source Licenses</h1>
+      <h2 class="project-tagline">My notes on open source licenses as a github page</h2>
+      <a href="https://github.com/lkilcommons/osslicenses" class="btn">View on GitHub</a>
+      <a href="https://github.com/lkilcommons/osslicenses/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/lkilcommons/osslicenses/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h2>
+<a id="a-disclaimer" class="anchor" href="#a-disclaimer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>A Disclaimer</h2>
+
+<p>I'm not a lawyer. I have no formal training in law, and this document is only for educational purposes. 
+I make no assertions about it's correctness.</p>
+
+<p>This document is largely my notes from reading the following book:</p>
+
+<blockquote>
+<p>Laurent, Andrew M. St. Understanding Open Source and Free Software Licensing. Accessed July 25, 2016. 
+<a href="http://shop.oreilly.com/product/9780596005818.do">http://shop.oreilly.com/product/9780596005818.do</a>.</p>
+</blockquote>
+
+<p>This book is available for free under a Creative Commons NoDerivs license and you should read it if you are interested.
+Technically, this may be a derivative work, but I'm asserting that a summary for educational purposes is fair use, 
+especially since I've referenced my source.</p>
+
+<h1>
+<a id="some-preliminary-definitions" class="anchor" href="#some-preliminary-definitions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Some preliminary definitions</h1>
+
+<h2>
+<a id="what-is-copyright" class="anchor" href="#what-is-copyright" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is copyright?</strong>
+</h2>
+
+<p>A concise definition goes like this: </p>
+
+<p>Copyright is the concept that the first person to express an idea in a tangible manner (e.g. a particular representation of a mathematical algorithm in computer code), reserves the right to profit in a tangible way from that expression (making money from it). No one else can profit from that particular expression of the mathematical algorithm without the originators permission.</p>
+
+<p>The idea of copyright also precludes others from unauthorized creation of a 'derivative work',e.g. a larger piece of code which incorporates the originators copyrighted work. What constitutes a 'derivative work' is a large portion of the nuance associated with open software licensing.</p>
+
+<blockquote>
+<p>Contrary to popular belief, any work created today will <strong>automatically</strong> be copyrighted. No line reading "(C) Copyright My Name 2016" would be necessary for this document to have copyright protection. However it is considered good practice to include some such to make it explicit.</p>
+</blockquote>
+
+<h3>
+<a id="limitations-on-copyright" class="anchor" href="#limitations-on-copyright" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Limitations on Copyright:</strong>
+</h3>
+
+<ul>
+<li>
+<em>Work for hire</em><br>
+If a person creates an expression of an idea in the context of being compensated by another to do so, then the copyright belongs to the employer, not the employee. </li>
+</ul>
+
+<blockquote>
+<p>Most software created by programmers for pay is legally interpreted as falling under this exception, with the rights holders being their employer. Open source licensing was originally introduced to change this situation by denying an exclusive right to profit to anyone by making the materials necessary to profit freely available</p>
+</blockquote>
+
+<ul>
+<li><p><em>Fair Use</em><br>
+This is not an well defined exception, but the gist is that exceptions are made to copyright when the expression is used in certain uses which do not impact the originator's exclusivity to profit from their work. Includes things like reviewing and criticizing the work.</p></li>
+<li><p><em>Transformative Derivative Works</em><br>
+This refers to changing the work so fundamentally that a new work is created and the copyright for the derivative work is then held by the person who 'transformed' the work. Again, where the line between a derivative work and a transformative derivative work lies is a major issue in software copyright.</p></li>
+</ul>
+
+<h2>
+<a id="why-isnt-traditional-copyright-good-enough" class="anchor" href="#why-isnt-traditional-copyright-good-enough" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why isn't traditional copyright good enough?</h2>
+
+<p>Software is in a unique position compared to say, music. While derivative works such as DJ mixes or 'mashups' do exist and in some cases can generate revenue for their creators, people usually are more interested in buying 'Free Bird' on iTunes than the techno remix. </p>
+
+<p>A computer program, on the other hand, is often most useful as a component of a larger project. For example, a matrix inversion algorithm implemented in a clever and fast way is just an academic curiosity until it's incorporated into, for instance, a faster and more accurate weather prediction model. This makes the question of what constitutes a 'derivative work' both controversial and important.</p>
+
+<p>Also, software, unlike an Eagles song, is not art (for a given value of 'art'), meaning that you don't have to be a member of the Eagles to add to the work. Software can be, and often is, made better for having multiple contributing authors. In the matrix inversion example, a feature of a clever implementation of an algorithm is often it's brevity. Although it took many hours of work to come up with the code, it may only take a few minutes for an uninvolved mathematician to read it, and provide a constructive minor change or feature addition which would increase the value of the work.</p>
+
+<h1>
+<a id="open-source-principles" class="anchor" href="#open-source-principles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Open Source Principles</h1>
+
+<h2>
+<a id="open-distribution" class="anchor" href="#open-distribution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Open Distribution</h2>
+
+<p>Traditional software copyright makes it illegal to copy or redistribute software for money or for free. This has proved a very difficult rule to enforce (nod knowingly if you've ever installed a burned CD copy of any Microsoft product...actually better not, they might be watching...)</p>
+
+<p>Open source software is subject to varying degrees (depending on the license) to the 'open distribution' principle, meaning that you are allowed to copy and redistribute the software for pay or for free.</p>
+
+<h2>
+<a id="open-modification" class="anchor" href="#open-modification" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Open Modification</h2>
+
+<p>Traditional software copyright precludes any creation whatsoever of derivative works. "Open modification" means that you are provided with both the means and the permission to modify and distribute modified versions of the software, for pay or for free.</p>
+
+<h2>
+<a id="generational-limitation" class="anchor" href="#generational-limitation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Generational Limitation</h2>
+
+<p>This simply means that others cannot claim to be the work's creator, and must acknowledge the creator's copyright. Most open source licenses reserve this right. Some additionally require that any derivative works must also be licensed under the same license. This is called <em>copyleft</em>.</p>
+
+<h1>
+<a id="certified-open-source-licenses" class="anchor" href="#certified-open-source-licenses" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Certified Open Source Licenses:</h1>
+
+<blockquote>
+<p>Open source licenses are certified by the Open Source Initiative. In order for a license to be OSI-Certified (which all commonly used licenses are) it must satisfy all of the following criteria. I have paraphrased the following from the OSI formal legal text.</p>
+</blockquote>
+
+<ol>
+<li> No prevention of anyone from selling or giving away the licensed software as part of a package of software, (to clarify this is <strong>non-exclusive</strong>, i.e. everyone who has a copy has an equal right to sell it or give it away, regardless if they are the author or not)</li>
+<li> Source code for the application must be included, in the preferred form in which a programmer would modify it (no compiled binaries, no obfuscated code)</li>
+<li> No prevention of anyone from modifying the software and creating a derived work. Giving away or selling such derived works must not be prohibited or restricted, just as if the derived work were the original work.</li>
+<li>No discrimination against any person or group of people is allowed. The license must not disallow the use of the software to make money or disallow it's distribution to foreign nationals, for example. </li>
+</ol>
+
+<h2>
+<a id="common-licenses-which-are-osi-certified" class="anchor" href="#common-licenses-which-are-osi-certified" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Common Licenses which are OSI-Certified</h2>
+
+<ul>
+<li>Apache License 2.0</li>
+<li>BSD 3-Clause "New" or "Revised" license</li>
+<li>BSD 2-Clause "Simplified" or "FreeBSD" license</li>
+<li>GNU General Public License (GPL)</li>
+<li>GNU Library or "Lesser" General Public License (LGPL)</li>
+<li>MIT license</li>
+</ul>
+
+<h1>
+<a id="the-garden-of-open-source-licenses" class="anchor" href="#the-garden-of-open-source-licenses" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Garden of Open Source Licenses</h1>
+
+<p>There are a lot of open source licenses, (78 are currently certified by the Open Source Initiative) but the are often grouped into two categories, based on how they handle 'Generative Limitation'. Licenses which force derivative works to be licensed under the same license as the original are called 'copyleft'. Other licenses which permit relicensing, as long as the new license does not conflict with the old one, are non-copyleft. Non-copyleft licenses often allow closed-source derivative works, and copyleft licenses generally prohibit them. Both varieties allow commercial use of the licensed software, as long as a licensee does not attempt to assert exclusivity, and prevent others from equal opportunity to benefit commercially from the software.</p>
+
+<h1>
+<a id="non-copyleft-licenses" class="anchor" href="#non-copyleft-licenses" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Non-Copyleft Licenses</h1>
+
+<h2>
+<a id="mit-license" class="anchor" href="#mit-license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MIT License</h2>
+
+<p>This is one of the most simple licenses. It does only two things:</p>
+
+<ol>
+<li>Releases all exclusivity rights, which normally are automatically given to the author of a work under the law, upon her completion of whatever the work is in a tangible form (e.g. an archive of source code files on the internet, or a git repository). This means that any other person which is not the author is allowed to, upon obtaining the code, sell or give it away, or modify it, or create a derivative work. <strong>In particular, this license allows using the work in a closed-source product or creating a derivative work which is subject to a different license, as long as the original license is included as well</strong>
+</li>
+<li>Explicitly absolves the author of any legal responsibility for the consequences of use of the licensed software</li>
+</ol>
+
+<h2>
+<a id="bsd-license" class="anchor" href="#bsd-license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>BSD license</h2>
+
+<p>The BSD license is essentially identical to the MIT license, with one additional requirement:</p>
+
+<blockquote>
+<p>"Neither the name of the  nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission"</p>
+</blockquote>
+
+<p>This is similar to the clause about warranty, in that it protects the authors from the uses the software may be put to, but in addition to legal protection, it protects their reputation from being exploited in connection with the software. This type of clause is called <strong>non-attribution</strong>.</p>
+
+<h2>
+<a id="apache-license-version-20" class="anchor" href="#apache-license-version-20" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Apache License (version 2.0)</h2>
+
+<p>The 2.0 version is the most modern version of this license. The previous version (1.1) was very close to the BSD license.</p>
+
+<p>Apache 2.0 is a longer and more explicit license than MIT or BSD. It explicitly defines many of the implicit consequences of the MIT and BSD licenses and adds a few additional provisions for patent infringement, contributions to the original work which are covered under the same license, and what is and is not a derivative work.</p>
+
+<p>The first major innovation in the Apache 2.0 license is a provision for 'upstreaming' or improvements made by people other than the original author, to be automatically included under the same license. This differentiates between contributions and derivative work, the latter of which can be relicensed, as long as the new license does not conflict with the Apache 2.0, whereas the former just becomes a part of the licensed work as long as the original authors accept it as such.</p>
+
+<p>Apache 2.0 also explicitly defines a 'Derivate Work'. Basically, if you can separate the original from the work which is being considered as a 'Derivative Work', it's not a derivative work. This means that if you import or call a function from an Apache 2.0 licensed piece of software, but do not use it's source code as a part of your code, your work is not considered 'Derivative'. The rules for derivative works are:
+1. They must explicitly show in the source code what modifications were made.
+2. They must include a copy of the original license and be subject to all of it's terms, but the derivative work creator may add additional terms to the license (this allows derivative works to be closed-source)</p>
+
+<p>Apache 2.0 explicitly handles patent infringement, as well. Basically, it says that the license grants anyone who gets a copy of the software all of the patent rights that the author had, if any. It also has a provision that terminates the license and returns copyright with all of its legal protections to the originator if someone who has a copy of the software sues any person related to the software, providing further legal protection against patent litigation.</p>
+
+<h1>
+<a id="copyleft-licenses" class="anchor" href="#copyleft-licenses" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Copyleft Licenses</h1>
+
+<h2>
+<a id="gnu-general-public-license-the-gpl" class="anchor" href="#gnu-general-public-license-the-gpl" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GNU General Public License (the GPL)</h2>
+
+<p>The GPL is the most stringent of the copyleft licenses. </p>
+
+<p>It explicitly forbids any derivative work from being subject to any additional license clauses, and it interprets derivative works very broadly. Whereas the Apache license does not consider a program which imports or calls a function from an Apache licensed piece of software a derivative work, the GPL does. The GPL is sometimes referred to as 'contagious', meaning that any software that calls or uses functionality from a piece of software that is licensed under the GPL, is considered to be a derivative work, and must then be subject to all of the provisions of the GPL and only the provisions of the GPL. This ensures that any software that is distributed under the GPL cannot be made closed source, and cannot be used as a library in closed source programs.</p>
+
+<p>The GPL differs from the Apache license in how it handles potential allegations of patent infringement against users or distributors of software licensed under it. The Apache license has a clause which renders the license void if someone who has the software initiates legal action against anyone else who has the software, which returns copyright protection to the author of the software. The GPL attempts to fight restrictive patent licensing by having a provision which says that if any court decision or ruling is made relating to a piece of software that is licensed under the GPL contradicts a provision of the GPL, then the only way to satisfy the ruling and the license is to discontinue distribution of the software. Basically this precludes anyone <strong>including the original author</strong> from distributing the software or creating a derivative work, unless the original author relicenses the software. This has never been tested in court, and it's unknown if it's enforcible.</p>
+
+<p>The GPL is the strongest license for a software author who believes that their software should always be distributed open-source.</p>
+
+<h2>
+<a id="lesser-gnu-general-public-license-the-lgpl" class="anchor" href="#lesser-gnu-general-public-license-the-lgpl" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Lesser GNU General Public License (the LGPL)</h2>
+
+<p>The LGPL is similar to the GPL in many respects, except that it has a narrower concept of what constitutes a derivative work. In particular, it resembles the Apache license in classifying only works using substantial portions of the original code as derivative. A closed-source piece of software is allowed to call a function or use a subroutine from a LGPL-licensed piece of software without violating the license.</p>
+
+<h1>
+<a id="references" class="anchor" href="#references" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>References</h1>
+
+<p>Laurent, Andrew M. St. Understanding Open Source and Free Software Licensing. Accessed July 25, 2016. <a href="http://shop.oreilly.com/product/9780596005818.do">http://shop.oreilly.com/product/9780596005818.do</a>.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/lkilcommons/osslicenses">Open Source Licenses</a> is maintained by <a href="https://github.com/lkilcommons">lkilcommons</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
