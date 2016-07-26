@@ -27,15 +27,15 @@ The idea of copyright also precludes others from unauthorized creation of a 'der
 
 - **Limitations on Copyright:**
 
-1. *Work for hire*  
+- *Work for hire*  
 If a person creates an expression of an idea in the context of being compensated by another to do so, then the copyright belongs to the employer, not the employee. 
 
->Most software created by programmers for pay is legally interpreted as falling under this exception, with the rights holders >being their employer. Open source licensing was originally introduced to change this situation by denying an exclusive right >to profit to anyone by making the materials nessecary to profit freely available
+>Most software created by programmers for pay is legally interpreted as falling under this exception, with the rights holders being their employer. Open source licensing was originally introduced to change this situation by denying an exclusive right to profit to anyone by making the materials nessecary to profit freely available
 
-2. *Fair Use*  
+- *Fair Use*  
 This is not an well defined exception, but the gist is that exceptions are made to copyright when the expression is used in certain uses which do not impact the orginator's exclusivity to profit from thier work. Includes things like reviewing and criticizing the work.
 
-3. *Transformative Derivative Works*  
+- *Transformative Derivative Works*  
 This refers to changing the work so fundamentally that a new work is created and the copyright for the derivative work is then held by the person who 'transformed' the work. Again, where the line between a derivative work and a transformative derivative work lies is a major issue in software copyright.
 
 # Why isn't traditional copyright good enough?
