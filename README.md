@@ -15,7 +15,7 @@ especially since I've referenced my source.
 
 # Some preliminary definitions
 
-- What is copyright? 
+- **What is copyright?**
 
 A concise definition goes like this: 
 
@@ -25,17 +25,17 @@ The idea of copyright also precludes others from unauthorized creation of a 'der
 
 >Contrary to popular belief, any work created today will **automatically** be copyrighted. No line reading "(C) Copyright My Name 2016" would be nessecary for this document to have copyright protection. However it is considered good practice to include some such to make it explicit.
 
-- Limitations on Copyright:
+- **Limitations on Copyright:**
 
-1. Work for hire
+1. *Work for hire*  
 If a person creates an expression of an idea in the context of being compensated by another to do so, then the copyright belongs to the employer, not the employee. 
 
 >Most software created by programmers for pay is legally interpreted as falling under this exception, with the rights holders >being their employer. Open source licensing was originally introduced to change this situation by denying an exclusive right >to profit to anyone by making the materials nessecary to profit freely available
 
-2. Fair Use
+2. *Fair Use*  
 This is not an well defined exception, but the gist is that exceptions are made to copyright when the expression is used in certain uses which do not impact the orginator's exclusivity to profit from thier work. Includes things like reviewing and criticizing the work.
 
-3. Transformative Derivative Works
+3. *Transformative Derivative Works*  
 This refers to changing the work so fundamentally that a new work is created and the copyright for the derivative work is then held by the person who 'transformed' the work. Again, where the line between a derivative work and a transformative derivative work lies is a major issue in software copyright.
 
 # Why isn't traditional copyright good enough?
@@ -120,7 +120,7 @@ The GPL is the most stringent of the copyleft licenses.
 
 It explicitly forbids any derivative work from being subject to any additional license clauses, and it interprets derivative works very broadly. Whereas the Apache license does not consider a program which imports or calls a function from an Apache licensed piece of software a derivative work, the GPL does. The GPL is sometimes referred to as 'contagious', meaning that any software that calls or uses functionality from a piece of software that is licensed under the GPL, is considered to be a derivative work, and must then be subject to all of the provisions of the GPL and only the provisions of the GPL. This ensures that any software that is distributed under the GPL cannot be made closed source, and cannot be used as a library in closed source programs.
 
-The GPL differs from the Apache license in how it handles potential allegations of patent infringment against users or distributors of software licensed under it. The Apache license has a clause which renders the license void if someone who has the software initiates legal action against anyone else who has the software, which returns copyright protection to the author of the software. The GPL attempts to fight restrictive patent licencing by having a provision which says that if any court decision or ruling is made relating to a piece of software that is licensed under the GPL condradicts a provision of the GPL, then the only way to satisfy the ruling and the license is to discontinue distribution of the software. Basically this precludes anyone __including__ the original author from distributing the software or creating a derivative work, unless the original author relicenses the software. This has never been tested in court, and it's unknown if it's enforcible.
+The GPL differs from the Apache license in how it handles potential allegations of patent infringment against users or distributors of software licensed under it. The Apache license has a clause which renders the license void if someone who has the software initiates legal action against anyone else who has the software, which returns copyright protection to the author of the software. The GPL attempts to fight restrictive patent licencing by having a provision which says that if any court decision or ruling is made relating to a piece of software that is licensed under the GPL condradicts a provision of the GPL, then the only way to satisfy the ruling and the license is to discontinue distribution of the software. Basically this precludes anyone __including the original author__ from distributing the software or creating a derivative work, unless the original author relicenses the software. This has never been tested in court, and it's unknown if it's enforcible.
 
 The GPL is the strongest license for a software author who belives that their software should always be distributed open-source.
 
