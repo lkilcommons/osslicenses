@@ -115,7 +115,7 @@ Apache 2.0 explicitly handles patent infringment, as well. Basically, it says th
 
 # Copyleft Licenses
 
-# GNU General Public License (the GPL)
+## GNU General Public License (the GPL)
 The GPL is the most stringent of the copyleft licenses. 
 
 It explicitly forbids any derivative work from being subject to any additional license clauses, and it interprets derivative works very broadly. Whereas the Apache license does not consider a program which imports or calls a function from an Apache licensed piece of software a derivative work, the GPL does. The GPL is sometimes referred to as 'contagious', meaning that any software that calls or uses functionality from a piece of software that is licensed under the GPL, is considered to be a derivative work, and must then be subject to all of the provisions of the GPL and only the provisions of the GPL. This ensures that any software that is distributed under the GPL cannot be made closed source, and cannot be used as a library in closed source programs.
@@ -124,9 +124,9 @@ The GPL differs from the Apache license in how it handles potential allegations 
 
 The GPL is the strongest license for a software author who belives that their software should always be distributed open-source.
 
-# Lesser GNU General Public License (the LGPL)
+## Lesser GNU General Public License (the LGPL)
 The LGPL is similar to the GPL in many respects, except that it has a narrower concept of what constitutes a derivative work. In particular, it resembles the Apache license in classifying only works using substantial portions of the original code as derivative. A closed-source piece of software is allowed to call a function or use a subroutine from a LGPL-licensed piece of software without violating the license.
 
-## References
+# References
 Laurent, Andrew M. St. Understanding Open Source and Free Software Licensing. Accessed July 25, 2016. http://shop.oreilly.com/product/9780596005818.do.
 
