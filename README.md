@@ -23,7 +23,7 @@ Copyright is the concept that the first person to express an idea in a tangible 
 
 The idea of copyright also precludes others from unauthorized creation of a 'derivative work',e.g. a larger piece of code which incorporates the originators copyrighted work. What consititudes a 'derivative work' is a large portion of the nuance associated with open software licensing.
 
->Contrary to popular belief, any work created today will **automatically** be copyrighted. No line reading "(C) Copyright <My >Name> 2016" would be nessecary for this document to have copyright protection. However it is considered good practice to >include some such to make it explicit. 
+>Contrary to popular belief, any work created today will **automatically** be copyrighted. No line reading "(C) Copyright My Name 2016" would be nessecary for this document to have copyright protection. However it is considered good practice to include some such to make it explicit.
 
 - Limitations on Copyright:
 
@@ -64,7 +64,7 @@ This simply means that others cannot claim to be the work's creator, and must ac
 
 # Certified Open Source Licences:
 	
->Open source licenses are certified by the Open Source Initiative. In order for a license to be OSI-Certified (which all >commonly used liceses are) it must satisfy all of the following critera. I have paraphrased the following from the OSI formal >legal text.
+>Open source licenses are certified by the Open Source Initiative. In order for a license to be OSI-Certified (which all commonly used liceses are) it must satisfy all of the following critera. I have paraphrased the following from the OSI formal legal text.
 
 1.  No prevention of anyone from selling or giving away the licensed software as part of a package of software, (to clarify this is __non-exclusive__, i.e. everyone who has a copy has an equal right to sell it or give it away, regardless if they are the author or not)
 2.	Source code for the application must be included, in the preferred form in which a programmer would modify it (no compiled binaries, no obfuscated code)
@@ -96,7 +96,7 @@ This is one of the most simple licenses. It does only two things:
 
 The BSD license is essentially identical to the MIT license, with one additional requirement:
 
-"Neither the name of the <ORGANIZATION> nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission"
+>"Neither the name of the <ORGANIZATION> nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission"
 
 This is similar to the clause about warranty, in that it protects the authors from the uses the software may be put to, but in addition to legal protection, it protects their reputation from being exploited in connection with the software. This type of clause is called __non-attribution__.
 
