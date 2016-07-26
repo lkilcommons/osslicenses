@@ -15,7 +15,7 @@ especially since I've referenced my source.
 
 # Some preliminary definitions
 
-- **What is copyright?**
+## **What is copyright?**
 
 A concise definition goes like this: 
 
@@ -25,7 +25,7 @@ The idea of copyright also precludes others from unauthorized creation of a 'der
 
 >Contrary to popular belief, any work created today will **automatically** be copyrighted. No line reading "(C) Copyright My Name 2016" would be nessecary for this document to have copyright protection. However it is considered good practice to include some such to make it explicit.
 
-- **Limitations on Copyright:**
+### **Limitations on Copyright:**
 
 - *Work for hire*  
 If a person creates an expression of an idea in the context of being compensated by another to do so, then the copyright belongs to the employer, not the employee. 
@@ -38,7 +38,7 @@ This is not an well defined exception, but the gist is that exceptions are made 
 - *Transformative Derivative Works*  
 This refers to changing the work so fundamentally that a new work is created and the copyright for the derivative work is then held by the person who 'transformed' the work. Again, where the line between a derivative work and a transformative derivative work lies is a major issue in software copyright.
 
-# Why isn't traditional copyright good enough?
+## Why isn't traditional copyright good enough?
 
 Software is in a unique position compared to say, music. While derivative works such as DJ mixes or 'mashups' do exist and in some cases can generate revenue for their creators, people usually are more interested in buying 'Free Bird' on iTunes than the techno remix. 
 
